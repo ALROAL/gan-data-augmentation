@@ -1,0 +1,25 @@
+# exclude data from source control by default
+/data
+/src_regression
+# exclude venv from source control by default
+/venv
+# exclude dev notebooks from source control by default
+/dev
+*.ipynb
+*.sh
+*.yaml
+# exclude wandb logs from source control by default
+/wandb
+# exclude trained models from source control by default
+/models
+# exclude train script outputs from source control by default
+/outputs
+/multirun
+
+/.vscode
+/.idea
+**/.ipynb_checkpoints
+# Pyhon byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
